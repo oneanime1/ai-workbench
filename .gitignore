@@ -9,3 +9,5 @@
 
 # Workspace working files
 .process/
+.agents/
+.claude/
