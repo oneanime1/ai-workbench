@@ -1,4 +1,6 @@
-# Project Description
+# AGENTS
+
+## Project Description
 
 This project is a workspace for using AI to assist with everyday work.
 
@@ -7,6 +9,14 @@ This project is a workspace for using AI to assist with everyday work.
 Use `.process/` only for intermediate artifacts, temporary working files, and files whose final destination has not yet been determined.
 
 When a task involves creating or processing files, create a directory in the project root named with the current date in `YYYYMMDD` format. Store the task-related files in that dated directory, and place all processing results in its `result/` subdirectory.
+
+## Operation Scope
+
+Perform all operations at the project level by default. Do not create, install, configure, modify, or store anything globally or at the user level unless the user explicitly instructs you to perform that specific operation globally.
+
+## Agent Memory
+
+Store all persistent agent memory for this workspace inside the current project directory. Do not create or update agent memory in global, user-level, or other locations outside the project, even if those locations are scoped or named for this project.
 
 ## Python Environment
 
