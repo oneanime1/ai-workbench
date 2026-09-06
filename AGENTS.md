@@ -10,8 +10,6 @@ Use `.process/` only for intermediate artifacts, temporary working files, and fi
 
 When a task involves creating or processing files, create a directory in the project root named with the current date in `YYYYMMDD` format. Store the task-related files in that dated directory, and place all processing results in its `result/` subdirectory.
 
-The dated directory for the current date is the current work area. By default, only read task files within the current work area. Do not inspect or read files in work areas from previous dates unless the user gives an explicit instruction to read them. Project-level instruction files may be read when needed to operate within this workspace.
-
 ## Operation Scope
 
 Perform all operations at the project level by default. Do not create, install, configure, modify, or store anything globally or at the user level unless the user explicitly instructs you to perform that specific operation globally.
